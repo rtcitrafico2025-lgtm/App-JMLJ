@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software JMLJ - El Buitre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #020617; color: #f8fafc; font-family: sans-serif; }
+        .card { background: #0f172a; border: 1px solid #1e293b; border-radius: 15px; padding: 20px; margin-bottom: 15px; }
+        .btn-alerta { padding: 12px; border-radius: 10px; font-weight: bold; font-size: 0.75rem; text-align: center; color: white; border: 1px solid rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body class="p-4">
+
+    <div class="card border-l-4 border-green-500">
+        <h2 class="text-green-500 font-black text-xs uppercase mb-2">10-28 EL BUITRE (26 AÑOS DE LEGADO)</h2>
+        <p class="italic text-sm text-slate-300">
+            "Que nada te detenga. Así inicié yo a los 26 años. Con carácter y ganas de dejar un legado a tus hijos, nadie te para. Cuídense en la 57; el kilómetro más peligroso es el que sigue porque siempre hay alguien esperándote en tu 8-5."
+        </p>
+    </div>
+
+    <div class="card border-t-4 border-yellow-500">
+        <h3 class="text-yellow-500 font-bold text-center mb-4 text-xs uppercase">METAS MENSUALES ACUMULATIVAS</h3>
+        <div class="grid grid-cols-3 gap-2 text-[9px] text-center font-bold">
+            <div><img src="https://placehold.co/100x100/1e293b/white?text=GORRA" class="rounded mb-1"><p>MES 1</p></div>
+            <div><img src="https://placehold.co/100x100/1e293b/white?text=GUANTES" class="rounded mb-1"><p>MES 2</p></div>
+            <div><img src="https://placehold.co/100x100/1e293b/white?text=POLO" class="rounded mb-1"><p>MES 3</p></div>
+        </div>
+        <p class="text-center mt-3 text-green-400 font-black text-xs">META: 1,200 PUNTOS / BONO $400</p>
+    </div>
+
+    <div class="card border-l-4 border-red-600">
+        <h3 class="text-red-500 font-bold text-xs mb-3 uppercase italic">Radio Banda Civil JMLJ</h3>
+        <div class="grid grid-cols-3 gap-2">
+            <button onclick="alert('10-33 ENVIADO')" class="btn-alerta bg-red-900">10-33<br>EMERGENCIA</button>
+            <button onclick="alert('10-42 ENVIADO')" class="btn-alerta bg-red-700">10-42<br>ACCIDENTE</button>
+            <button onclick="alert('10-20 ENVIADO')" class="btn-alerta bg-slate-800">10-20<br>POSICIÓN</button>
+            <button onclick="alert('10-54 ENVIADO')" class="btn-alerta bg-slate-800">10-54<br>GANADO</button>
+            <button onclick="alert('10-96 ENVIADO')" class="btn-alerta bg-purple-900">10-96<br>LOCO</button>
+            <button onclick="alert('10-400 ENVIADO')" class="btn-alerta bg-green-900">10-400<br>TRABAJO</button>
+        </div>
+    </div>
+
+    <div class="card bg-slate-900/50">
+        <p class="text-[10px] text-slate-400 font-bold uppercase mb-2">Claves JMLJ:</p>
+        <div class="grid grid-cols-2 gap-1 text-[10px] text-slate-300">
+            <span>• 10-8: A la escucha</span>
+            <span>• 10-23: Al pendiente</span>
+            <span>• 10-57: Carretera</span>
+            <span>• 10-85: Casa / Hogar</span>
+        </div>
+    </div>
+
+</body>
+</html>
